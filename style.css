@@ -1,8 +1,61 @@
-body {
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
 
-}
+        .cover-container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+        }
 
-p {
-  margin: 100px;
-}
+        h1 {
+            color: #333333;
+        }
+
+        p {
+            color: #555555;
+            font-size: 18px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #007bff;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="cover-container">
+        <h1>Password Manager</h1>
+        <p>Store and manage your passwords with our password manager.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </div>
+
+</body>
+</html>
 
